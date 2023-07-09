@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31611.283
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TarefasApp.UI", "TarefasApp.UI\TarefasApp.UI.csproj", "{AD8A32A8-AB3B-41A9-9E28-6F8B4281C9FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - UI Layer", "1 - UI Layer", "{A1E59188-42FD-4693-9549-C1FB108CD3CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Services Layer", "2 - Services Layer", "{F2754F29-6302-4C6C-965E-A5EE69F60D13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarefasApp.Services", "TarefasApp.Services\TarefasApp.Services.csproj", "{31A33F60-555F-4CC8-B796-17DF69302D00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD8A32A8-AB3B-41A9-9E28-6F8B4281C9FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD8A32A8-AB3B-41A9-9E28-6F8B4281C9FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD8A32A8-AB3B-41A9-9E28-6F8B4281C9FB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AD8A32A8-AB3B-41A9-9E28-6F8B4281C9FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD8A32A8-AB3B-41A9-9E28-6F8B4281C9FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD8A32A8-AB3B-41A9-9E28-6F8B4281C9FB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{31A33F60-555F-4CC8-B796-17DF69302D00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31A33F60-555F-4CC8-B796-17DF69302D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31A33F60-555F-4CC8-B796-17DF69302D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31A33F60-555F-4CC8-B796-17DF69302D00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD8A32A8-AB3B-41A9-9E28-6F8B4281C9FB} = {A1E59188-42FD-4693-9549-C1FB108CD3CE}
+		{31A33F60-555F-4CC8-B796-17DF69302D00} = {F2754F29-6302-4C6C-965E-A5EE69F60D13}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
+	EndGlobalSection
+EndGlobal
